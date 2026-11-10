@@ -1,10 +1,10 @@
 # SARUR website
 
-Minimal, static SARUR page: one in-engine character image, title and short description. No generated promotional illustrations, decorative effects, JavaScript, analytics, cookies, trackers, web fonts or build step.
+Static, responsive SARUR promotional page with an editorial hero, actual in-engine image, gameplay overview and clearly labeled estimated PC requirements. SARUR wordmark and restrained charcoal/ivory styling. No generated promotional illustrations, JavaScript, analytics, cookies, trackers, web fonts or build step.
 
 Live site: https://ibackstrom.github.io/sarur/
 
-Serve locally with `python -m http.server 8087`. Edit index.html and style.css directly. The sole displayed image preserves its 16:9 source proportions using width: 100% and height: auto; there is no fixed-height container, crop or horizontal expansion.
+Serve locally with `python -m http.server 8087`. Edit index.html and style.css directly. The in-engine image preserves its 16:9 source proportions using width: 100% and height: auto; there is no fixed-height container, crop or horizontal expansion. The wordmark also retains its intrinsic proportions.
 
 Image source: `SARURPackage/Graphics/Gameplay/SARUR_Hero_Original_2560x1440.png`. The web version is a proportional 1920 × 1080 export of this in-engine reference, not a claim of the current gameplay camera. Social preview is a centered crop of the same source, never a nonuniform resize.
 
